@@ -1,0 +1,86 @@
+@import _variable
+@import _mixin
+
+body
+	background: url(../img/banner/background.png) no-repeat
+	+background-size(cover)
+	font-family: arial
+	color: $main-white
+	margin: 0
+	padding: 30px
+	padding-right: 0px
+	overflow: hidden
+
+footer
+	position: fixed
+	bottom: 30px
+	left: 30px
+	.control-info
+		display: flex
+		align-items: flex-end
+		img
+			margin-right: 20px
+
+.container
+	display: flex
+	width: 100%
+	.title
+		width: 30%
+		h1
+			font-size: 55px
+		p
+			line-height: 1.5em
+	.wrap
+		width: 70%
+		overflow: hidden
+		padding-left: 50px
+		position: relative
+		min-height: 75vh
+	.wrap-card
+		width: 110%
+		display: flex
+		position: absolute
+		left: 15%
+	.card
+		width: 400px
+		margin: 0px 10px
+		box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+		.head
+			border-top-left-radius: 3px
+			border-top-right-radius: 3px
+			background: $main-green
+			height: 150px
+			position: relative
+			img.person
+				position: absolute
+				top: 40%
+				left: 22%
+		.body
+			background: $main-white
+			color: $main-grey
+			padding: 40px
+			box-sizing: border-box
+			text-align: center
+			img
+				margin-right: 5px
+			h4
+				text-transform: uppercase
+				color: $main-dark
+				margin-top: 75px
+
+		.foot
+			border-bottom-left-radius: 3px
+			border-bottom-right-radius: 3px
+			background: $main-white
+			color: $main-grey
+			display: flex
+			text-align: center
+			.phone
+				padding: 20px
+				flex: 1
+				border-top: solid 1px $main-grey
+				border-right: solid 1px $main-grey
+			.email
+				padding: 20px
+				flex: 1
+				border-top: solid 1px $main-grey

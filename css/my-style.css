@@ -1,0 +1,87 @@
+body {
+  background: url(../img/banner/background.png) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: arial;
+  color: white;
+  margin: 0;
+  padding: 30px;
+  padding-right: 0px;
+  overflow: hidden; }
+
+footer {
+  position: fixed;
+  bottom: 30px;
+  left: 30px; }
+  footer .control-info {
+    display: flex;
+    align-items: flex-end; }
+    footer .control-info img {
+      margin-right: 20px; }
+
+.container {
+  display: flex;
+  width: 100%; }
+  .container .title {
+    width: 30%; }
+    .container .title h1 {
+      font-size: 55px; }
+    .container .title p {
+      line-height: 1.5em; }
+  .container .wrap {
+    width: 70%;
+    overflow: hidden;
+    padding-left: 50px;
+    position: relative;
+    min-height: 75vh; }
+  .container .wrap-card {
+    width: 110%;
+    display: flex;
+    position: absolute;
+    left: 15%; }
+  .container .card {
+    width: 400px;
+    margin: 0px 10px;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    .container .card .head {
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      background: #00a163;
+      height: 150px;
+      position: relative; }
+      .container .card .head img.person {
+        position: absolute;
+        top: 40%;
+        left: 22%; }
+    .container .card .body {
+      background: white;
+      color: #8C8C8C;
+      padding: 40px;
+      box-sizing: border-box;
+      text-align: center; }
+      .container .card .body img {
+        margin-right: 5px; }
+      .container .card .body h4 {
+        text-transform: uppercase;
+        color: black;
+        margin-top: 75px; }
+    .container .card .foot {
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+      background: white;
+      color: #8C8C8C;
+      display: flex;
+      text-align: center; }
+      .container .card .foot .phone {
+        padding: 20px;
+        flex: 1;
+        border-top: solid 1px #8C8C8C;
+        border-right: solid 1px #8C8C8C; }
+      .container .card .foot .email {
+        padding: 20px;
+        flex: 1;
+        border-top: solid 1px #8C8C8C; }
+
+/*# sourceMappingURL=my-style.css.map */
